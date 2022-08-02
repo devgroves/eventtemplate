@@ -398,17 +398,18 @@ p {
 .about-font-img {
   position: absolute;
   z-index: 1;
+  margin-top: 290px;
   /* left: 0;
   bottom: -73px; */
-  bottom: -920px;
+  /* bottom: -920px; */
 }
 
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
   .about-font-img {
     position: absolute;
     z-index: 1;
-    bottom: -1002px;
-    right: 221px;
+    /* bottom: -1002px;
+    right: 221px; */
   }
 }
 
@@ -417,8 +418,8 @@ p {
     position: absolute;
     z-index: 1;
     /* bottom: -972px; */
-    bottom: -1120px;
-    right: 360px;
+    /* bottom: -1120px;
+    right: 360px; */
   }
 }
 
@@ -662,7 +663,6 @@ ames up-bump {
 
 .team-social li:nth-child(1) a {
   transition-delay: 0.4s;
-
 }
 
 p {
@@ -680,13 +680,10 @@ p {
   font-size: 20px;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-
-
 }
 
 .pricing-card1:hover li {
   color: white;
-
 }
 
 .image-h3:hover {
@@ -819,7 +816,6 @@ p {
     padding: 33px 17px;
   }
 }
-
 
 .nav-tab.active {
   background: #331391;
@@ -971,6 +967,9 @@ p {
   .section-h2 {
     font-size: 31px;
   }
+}
+#pricing-card1:hover * {
+  color: white;
 }
 
 .single-card {
@@ -1408,7 +1407,7 @@ li {
   }
 }
 
-.tab-content>.tab-pane {
+.tab-content > .tab-pane {
   display: none;
 }
 
