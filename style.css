@@ -380,6 +380,11 @@ p {
   opacity: 1;
 }
 
+.gallery:hover .galler-css::after {
+  visibility: visible;
+  opacity: 1;
+}
+
 .gallery .galler-css::after {
   content: "";
   background-color: rgba(11, 14, 13, 0.702);
