@@ -268,7 +268,7 @@
 @media (max-width: 575px) {
   .nav-tabs .nav-item {
     font-size: 18px;
-    padding: 18px 14px;
+    padding: 19px 14px;
   }
 }
 
@@ -415,11 +415,13 @@
     padding: auto;
   }
 }
+
 @media (max-width: 576px) {
   .accordion {
     padding: 22px 5px 45px 2px;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .second-footer {
     padding-top: 50px;
@@ -459,28 +461,33 @@
     width: -webkit-fill-available;
   }
 }
+
 @media (max-width: 576px) {
   .accordion .card-body {
     background: #fff;
     padding: 25px 0px 25px 0px;
   }
 }
+
 @media (max-width: 991px) {
   #navbarNav ul li a {
     padding: 5px;
   }
 }
+
 @media (max-width: 576px) {
   .general-sponcers h2 {
     font-size: 24px;
     line-height: 1.6;
   }
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .general-sponcers h2 {
     font-size: 42px;
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .general-sponcers h2 {
     font-size: 31px;
