@@ -786,6 +786,10 @@ li {
   padding: 3px 0px 0px 0px;
 }
 
+.accordion-collapse .accordion-body {
+  padding: 3px 0px 0px 0px;
+}
+
 .tabs-content>.tab-pane {
   display: none;
 }
