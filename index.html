@@ -703,7 +703,7 @@
                 <li>10 Free Optimization</li>
                 <li>24/7 support</li>
               </ul>
-              <a href="services.html" class="black-btn">View Spackert</a>
+              <a href="#" class="black-btn">View Spackert</a>
             </div>
           </div>
         </div>
@@ -720,7 +720,7 @@
                 <li>10 Free Optimization</li>
                 <li>24/7 support</li>
               </ul>
-              <a href="services.html" class="black-btn">View Spackert</a>
+              <a href="#" class="black-btn">View Spackert</a>
             </div>
           </div>
         </div>
@@ -737,7 +737,7 @@
                 <li>10 Free Optimization</li>
                 <li>24/7 support</li>
               </ul>
-              <a href="services.html" class="black-btn">View Spackert</a>
+              <a href="#" class="black-btn">View Spackert</a>
             </div>
           </div>
         </div>
@@ -1012,7 +1012,7 @@
   </div>
 
   <script>
-    var countDownDate = new Date("Aug 30, 2022 24:00:00 ").getTime();
+    var countDownDate = new Date("Sep 30, 2022 24:00:00 ").getTime();
 
     var x = setInterval(function () {
       var now = new Date().getTime();
@@ -1028,7 +1028,18 @@
         days + " D : " + hours + " Hr :" + minutes + " Min : " + seconds + " Sec ";
       if (distance < 0) {
         clearInterval(X);
-        document.getElementById("timeDemo").innerHTML = "Date as Expired";
+        var reCountDownDate = new Date("Aug 30, 2023 24:00:00 ").getTime();  
+
+      var now = new Date().getTime();
+
+      var distance = reCountDownDate - now;
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        document.getElementById("timeDemo").innerHTML =  days + " D : " + hours + " Hr :" + minutes + " Min : " + seconds + " Sec ";;
       }
     }, 1000);
   </script>
